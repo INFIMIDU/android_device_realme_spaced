@@ -31,12 +31,8 @@ odm                                              /odm                  ext4    r
 
 # Misc
 /dev/block/platform/bootdevice/by-name/misc                          /misc                 emmc    defaults                                                    defaults
-/dev/block/platform/bootdevice/by-name/logo                          /logo                 emmc    defaults 
+/dev/block/platform/bootdevice/by-name/logo                          /logo                 emmc    defaults                                                    defaults
 
 # External-Devices (OTG | SD Card)
-/devices/platform/usb_xhci*                                          auto                  vfat    defaults                                                    voldmanaged=usbotg:auto
-/devices/platform/externdevice*                                      auto                  auto    defaults                                            voldmanaged=sdcard1:auto,encryptable=userdata
-
-#zram
-/dev/block/zram0                                                        none               swap    defaults 
-zramsize=2147483648,max_comp_streams=8
+/devices/platform/usb_xhci*                      auto                  vfat    defaults                                                    voldmanaged=usbotg:auto
+/devices/platform/externdevice*                  auto                  auto    defaults                                            voldmanaged=sdcard1:auto,encryptable=userdata
