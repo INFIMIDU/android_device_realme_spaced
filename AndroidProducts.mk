@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_spaced.mk
+    $(LOCAL_DIR)/lineage_spaced.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_spaced-user \
+    lineage_spaced-userdebug \
+    lineage_spaced-eng
