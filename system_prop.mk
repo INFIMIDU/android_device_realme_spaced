@@ -88,3 +88,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.isa.arm.variant=cortex-a78 \
     dalvik.vm.isa.arm64.variant=cortex-a78
+
+    debug.stagefright.ccodec=0
+
+# Surfaceflinger
+TARGET_USE_AOSP_SURFACEFLINGER
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    debug.sf.latch_unsignaled=1
+
