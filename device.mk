@@ -121,7 +121,9 @@ PRODUCT_PACKAGES += \
 # Wi-Fi
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
-    WifiOverlay
+    WifiOverlay \
+    DozeOverlaySystem \
+    DozeOverlaySystemUI
 
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/realme/spaced/spaced-vendor.mk)
