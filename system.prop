@@ -1,12 +1,8 @@
 # Audio
 ro.camera.sound.forced=0
 ro.audio.silent=0
-ro.config.vc_call_vol_steps=6
-
-# Blurs
-ro.surface_flinger.supports_background_blur=1
-ro.sf.blurs_are_expensive=1
-persist.sys.sf.disable_blurs=1
+ro.config.vc_call_vol_steps=7
+persist.bluetooth.bluetooth_audio_hal.disabled=true
 
 # Brand
 Build.BRAND=MTK
