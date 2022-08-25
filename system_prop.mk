@@ -67,3 +67,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
     dalvik.vm.boot-dex2oat-threads=8 \
     dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+
+    # LMKD
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lmk.psi_complete_stall_ms=150 \
+    ro.lmk.swap_free_low_percentage=20 \
+    ro.lmk.kill_timeout_ms=100
