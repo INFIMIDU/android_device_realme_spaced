@@ -83,3 +83,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.isa.arm.variant=cortex-a78 \
     dalvik.vm.isa.arm64.variant=cortex-a78
+
+#Enable Quick Power-On Mode To Reduce Boot-Time
+    ro.config.hw_quickpoweron=true
+    persist.sys.shutdown.mode=hibernate
