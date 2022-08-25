@@ -73,3 +73,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.lmk.psi_complete_stall_ms=150 \
     ro.lmk.swap_free_low_percentage=20 \
     ro.lmk.kill_timeout_ms=100
+
+    # Bionic
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.bionic.cpu_variant=cortex-a78 \
+    ro.bionic.2nd_cpu_variant=cortex-a78
+
+# Dalvik
+PRODUCT_PRODUCT_PROPERTIES += \
+    dalvik.vm.isa.arm.variant=cortex-a78 \
+    dalvik.vm.isa.arm64.variant=cortex-a78
