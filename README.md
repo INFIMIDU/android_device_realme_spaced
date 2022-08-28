@@ -17,3 +17,6 @@ The Realme 8i Codename is RMX3151 | Internal codename is spaced
 | Camera (Front)          | 16 MP, f/2.1, (wide), 1/3.0", 1.0µm                                                                                      |
 
 ![image](https://fdn2.gsmarena.com/vv/pics/realme/realme-8i-1.jpg)
+
+
+## For RealmeParts, clone [android_packages_apps_RealmeParts](https://github.com/DrtSinX98/packages_apps_RealmeParts) into packages/apps/RealmeParts

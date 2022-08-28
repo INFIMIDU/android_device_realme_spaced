@@ -138,5 +138,8 @@ PRODUCT_PACKAGES += \
     DozeOverlaySystem \
     DozeOverlaySystemUI
 
+# Parts
+$(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
+
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/realme/spaced/spaced-vendor.mk)
