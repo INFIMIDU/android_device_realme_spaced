@@ -91,4 +91,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.isa.arm.variant=cortex-a78 \
     dalvik.vm.isa.arm64.variant=cortex-a78
 
-
+# Always use GPU for screen compositing
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.disable_hwc_overlays=1
